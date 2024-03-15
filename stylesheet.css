@@ -1,3 +1,35 @@
 body{
     background-color: grey;
 }
+#body{
+    height: 400px;
+    width: 250px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+#screen{
+    display: flex;
+    justify-content: end;
+    height: 25%;
+}
+p{
+    font-size: 30px;
+    margin-right: 5px;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    gap: 2px;
+    margin: 4px;
+}
+.rowButtons{
+    display: flex;
+    height: 50%;
+    gap: 2px;
+}
+.rowButtons > button{
+    width: 100%;
+}
